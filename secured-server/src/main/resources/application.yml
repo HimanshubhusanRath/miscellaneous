@@ -1,0 +1,9 @@
+server:
+  port: 8080
+  # HTTPS Configs
+  ssl:
+    key-store: classpath:secured-server.p12
+    key-store-type: PKCS12
+    key-store-password: changeit
+
+    
