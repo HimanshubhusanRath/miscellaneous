@@ -1,6 +1,6 @@
 Steps to enable HTTPS in an local application
 ==============================================
-1. 'mkcert' is a tool that generates valid TLS certificate. To install it, run 
+1. 'mkcert' is a tool for generating locally-trusted TLS (development) certificates. To install it, run 
     <pre>brew install mkcert </pre> 
 3. 'Certificate Authority' is responsible for the certificates created in your system. To create and install a CA (certificate authority) in your machine, run  
    <pre> mkcert -install </pre>
